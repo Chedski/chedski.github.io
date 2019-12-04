@@ -1,1 +1,16 @@
 /* empty */
+body {
+  background-color: #ddd;
+  margin: 0;
+}
+.topbar {
+  background-color: #efefef;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 3px;
+  height: calc(45px - 3px);
+  box-shadow: 0 3px #aaaa;
+}
